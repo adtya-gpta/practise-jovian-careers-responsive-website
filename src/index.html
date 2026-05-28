@@ -26,7 +26,8 @@
 
     <body>
         <div id="navbar">
-            <img id="image-logo" src="logo.png" alt="logo">
+            <img id="image-logo" src="https://i.imgur.com/JRA5Q8a.png" alt="logo">
+            <img id="image-logo-with-text" src="logo.png" alt="logo-with-text">
         </div>
 
         <img id="image-banner" src="banner.jpg" alt="Banner">
@@ -34,45 +35,75 @@
         <h1>
             About Jovian
         </h1>
+
         <div id="about">
             <div id="about-text">
                 <p>
-            		<b>Lorem ipsum</b> dolor sit amet consectetur 
-                    adipiscing elit. Quisque faucibus ex sapien vitae 
-                    pellentesque sem placerat. In id cursus mi pretium 
-                    tellus duis convallis. <em>Tempus leo</em> eu aenean 
-                    sed diam urna tempor. Pulvinar vivamus fringilla
-                    lacus nec metus bibendum egestas. Iaculis massa nisl 
-                    malesuada <strong>lacinia integer</strong> nunc 
-                    posuere. <u>Ut hendrerit semper</u> vel class aptent 
-                    taciti sociosqu. Ad litora torquent per conubia nostra 
-                    inceptos himenaeos. Tempus leo eu aenean sed.
+            		At Jovian, we're on a mission to build the world's
+                    most highly reputed technical university. and we're
+                    building it completely online. We offer several
+                    beginner friendly courses that are taken by 300,000+
+                    registered users. We also offer two Industry-focussed
+                    bootcamps:
         		</p>
 
-        		<div>
-            		We also offer two Industry-focussed bootcamps:
-            		<ol>
-                		<li>
-                    		<a href="https://www.jovian.com/full-stack-developer-bootcamp" target="_blank">
-                        		Jovian Full-Stack Developer Bootcamp
+                <ul>
+                	<li>
+                		<a href="https://www.jovian.com/full-stack-developer-bootcamp" target="_blank">
+                    		Full-Stack Developer Bootcamp
+                		</a>
+            		</li>
+                	
+                    <li>
+                		<a href="https://www.jovian.com/full-stack-developer-bootcamp" target="_blank">
+                    		DSA Bootcamp
                     		</a>
-                		</li>
-                		<li>
-                    		<a href="https://www.jovian.com/full-stack-developer-bootcamp" target="_blank">
-                        		Jovian DSA Bootcamp
-                    		</a>
-                		</li>
-            		</ol>
-        		</div>
+            		</li>
+        		</ul>
 			</div>
     
-			<div id="about-image">
-				<img id="image-team" src="team.png" alt="Team">
-			</div>	
+			<img id="image-team" src="team.png" alt="Team">
         </div>
 
-        <h2>Job Opportunities</h2>
+        <h2>Job Openings at Jovian</h2>
         <div id="jobs">
+            <div id="jobs-list">
+                <div class="job">
+                    <div class="job-title">Frontend Developer</div>
+                    <div class="job-info">Bengaluru, India</div>
+                    <div class="job-info">₹12,00,000</div>
+                    <div class="job-info">Mar 3, 2023</div>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Backend Developer</div>
+                    <div class="job-info">New Delhi, India</div>
+                    <div class="job-info">₹15,00,000</div>
+                    <div class="job-info">Feb 1, 2023</div>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Data Scientist</div>
+                    <div class="job-info">Remote</div>
+                    <div class="job-info">$175,000</div>
+                    <div class="job-info">Dec 22, 2022</div>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Machine Learning Engineer</div>
+                    <div class="job-info">New York, USA</div>
+                    <div class="job-info">$80,000</div>
+                    <div class="job-info">Sep 19, 2022</div>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">IT Support</div>
+                    <div class="job-info">Hyderabad, India</div>
+                    <div class="job-info">₹8,00,000</div>
+                    <div class="job-info">Nov 19, 2022</div>
+                </div>
+            </div>
+
             <table id="jobs-table">
                 <tr class="jobs-table-header">
                     <th rowspan="2">Job Title</th>
@@ -176,17 +207,17 @@
 
                 <div>
                     <label for="cover-letter">Cover Letter</label><br>
-                    <textarea id="cover-letter" name="'cover-letter" rows="8" placeholder="Explain what makes you suitable for the job role..."></textarea>
+                    <textarea id="cover-letter" name="cover-letter" rows="8" placeholder="Explain what makes you suitable for the job role..."></textarea>
                 </div>
 
-                <div>
+                <div id="t-and-c">
                     <label for="terms">
                         <input type="checkbox" id="terms" name="terms" required>
                         I agree to the <a href="">Terms and Conditions</a>
                     </label>
                 </div>
 
-                <div style="text-align: center;">
+                <div id="submit-button">
                     <input type="submit" value="Submit Application">
                 </div>
             </form>
